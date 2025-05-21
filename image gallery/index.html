@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="full-img" id="fullimg-box">
+        <img src="./images/download.jpeg" alt="" id="fullimg">
+
+        <span onclick="closeFullImg()">X</span>
+
+    </div>
+      <h2>IMAGE GALLERY 📸</h2>
+    <div class="img-gallery">
+
+      
+        <img src="https://picsum.photos/300?random=1" onclick="openFullImg(this.src)">
+        <img src="https://picsum.photos/300?random=2" onclick="openFullImg(this.src)">
+        <img src="https://picsum.photos/300?random=3" onclick="openFullImg(this.src)">
+        <img src="https://picsum.photos/300?random=4" onclick="openFullImg(this.src)">
+        <img src="https://picsum.photos/300?random=5" onclick="openFullImg(this.src)">
+        <img src="https://picsum.photos/300?random=6" onclick="openFullImg(this.src)">
+     
+       
+
+    </div>
+       <div class="btnn">
+             <button class="btn">load more </button>
+        </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
